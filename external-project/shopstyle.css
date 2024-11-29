@@ -1,0 +1,228 @@
+/* 
+font-family: "Pacifico", cursive
+font-family: "Ribeye", serif;
+font-family: "Quicksand", sans-serif; 
+
+#eee1e5
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* #####################
+        HEADER/NAV
+   ##################### */
+header {
+    background: #ecdce1;
+    font-family: "Quicksand", sans-serif; 
+}
+
+header h1 {
+    padding: 15px;
+    text-align: center;
+    color: #474747;
+}
+
+nav ul {
+    background: #ecdce1;
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    font-family: "Quicksand", sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    margin-left: 25px;
+    color: #474747;
+}
+
+nav a:hover {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* #####################
+           MAIN
+   ##################### */
+body {
+    background-color: #f5eef0;
+    margin: 0;
+    color: #474747;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 5.5fr 2fr 2fr;
+    grid-template-areas: 
+    "cat cat"
+    "new new"
+    "best best" ;
+    gap: 40px 40px;
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #f5eef0;
+    font-family: "Quicksand", sans-serif; 
+}
+
+/* #####################
+         CATEGORIES
+   ##################### */
+   .categories {
+    grid-area: cat;
+}
+
+.categories ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.categories img {
+    height: 300px;
+    width: 525px;
+    background: #b6aaaa;
+    box-shadow: 0 4px 8px rgba(136, 135, 134, 0.3);
+}
+
+.categories li {
+    margin: 5px;
+    display: inline-block;
+}
+
+.categories ul span {
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+.categories a {
+    font-weight: 600;
+    color: #474747;
+    text-decoration: none;
+}
+
+.categories a:hover {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* #####################
+        NEW ARRIVALS
+   ##################### */
+.new-arrivals {
+    grid-area: new;
+    background: #fffbfa;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(136, 135, 134, 0.3);
+    color: #474747;
+}
+
+.new-arrivals ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-arrivals li {
+    display: flex;
+    margin: 5px;
+}
+
+.new-arrivals ul span {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+.new-arrivals p {
+    margin-top: 20px;
+}
+
+.new-arrivals img {
+    height: 240px;
+    width: 210px;
+}
+
+.new-arrivals a {
+    text-decoration: none;
+    color: #474747;
+    font-weight: 600;
+}
+
+.new-arrivals a:hover {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/* #####################
+        BEST SELLERS
+   ##################### */
+.best-sellers {
+    grid-area: best;
+    background-color: #e4ceb5;
+    background: #fffbfa;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(136, 135, 134, 0.3);
+    color: #474747;
+}
+
+.best-sellers ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.best-sellers li {
+    display: flex;
+    margin: 5px;
+}
+
+.best-sellers ul span {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+.best-sellers p {
+    margin-top: 20px;
+}
+
+.best-sellers img {
+    height: 240px;
+    width: 210px;
+}
+
+.best-sellers a {
+    text-decoration: none;
+    color: #474747;
+    font-weight: 600;
+}
+
+.best-sellers a:hover {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+/* #####################
+          FOOTER
+   ##################### */
+footer {
+    background: #ecdce1;
+    padding: 20px;
+    margin-top: 20px;
+    color: #474747;
+}

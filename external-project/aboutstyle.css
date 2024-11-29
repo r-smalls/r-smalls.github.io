@@ -1,0 +1,134 @@
+/* 
+font-family: "Pacifico", cursive
+font-family: "Ribeye", serif;
+font-family: "Quicksand", sans-serif; 
+
+#eee1e5
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* #####################
+        HEADER/NAV
+   ##################### */
+/* #####################
+        HEADER/NAV
+   ##################### */
+header {
+    background: #ecdce1;
+    font-family: "Quicksand", sans-serif; 
+}
+
+header h1 {
+    padding: 15px;
+    text-align: center;
+    color: #474747;
+}
+
+nav ul {
+    background: #ecdce1;
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    font-family: "Quicksand", sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    margin-left: 25px;
+    color: #474747;
+}
+
+nav a:hover {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* #####################
+           MAIN
+   ##################### */
+body {
+    background-color: #f5eef0;
+    margin: 0;
+    color: #474747;
+    font-family: "Quicksand", sans-serif; 
+}
+
+main {
+    display: grid;
+    grid-template-columns: 7fr 2fr;
+    gap: 100px;
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #f5eef0;
+}
+
+/* #####################
+          ABOUT
+   ##################### */
+.about-me {
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.about-me img {
+    width: 480px;
+    height: 300px;
+    padding: 15px;
+}
+
+.about-me h2, p {
+    padding: 15px;
+}
+
+/* #####################
+          SOCIALS
+   ##################### */
+.socials-contacts {
+    background: #fffbfa;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(136, 135, 134, 0.3);
+}
+
+.socials-contacts iframe {
+    align-items: center;
+    padding: 10px;
+    border: 0;
+}
+
+.socials-contacts ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.socials-contacts img {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.socials-contacts a:hover {
+    outline: #d4b0bb 3px solid;
+    border-radius: 100px;
+}
+
+/* #####################
+          FOOTER
+   ##################### */
+footer {
+    background: #ecdce1;
+    padding: 20px;
+    margin-top: 20px;
+    color: #474747;
+    font-family: "Quicksand", sans-serif; 
+}
